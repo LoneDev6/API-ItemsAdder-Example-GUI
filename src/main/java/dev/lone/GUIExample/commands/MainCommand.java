@@ -19,6 +19,7 @@ public class MainCommand implements CommandExecutor
         this.plugin = plugin;
 
         Bukkit.getPluginCommand("guiexample").setExecutor(this);
+
     }
 
     @Override
