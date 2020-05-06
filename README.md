@@ -3,6 +3,15 @@ Example usage of ItemsAdder API to crete custom textured inventories in Spigot
 
 I know the code is not perfect but I just wanted to show a basic API usage, you're free to copy it, edit it and include in your plugin.
 
+# Example
+![](https://i.imgur.com/YgTN2Jn.png)
+```Java
+TexturedInventoryWrapper inventory = new TexturedInventoryWrapper(null,
+    54,
+    ChatColor.BLACK + "Test",
+    new FontImageWrapper("mcguis:blank_menu")
+);
+```
 
 # Remember to include your ItemsAdder.jar as dependency
 
