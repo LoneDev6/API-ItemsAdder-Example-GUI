@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GUIExample">
+    <output-path>$PROJECT_DIR$/../../TestServer/1.15/plugins</output-path>
+    <root id="archive" name="GUIExample.jar">
+      <element id="module-output" name="GUIExample" />
+    </root>
+  </artifact>
+</component>

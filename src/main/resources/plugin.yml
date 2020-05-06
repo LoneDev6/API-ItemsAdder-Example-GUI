@@ -1,0 +1,11 @@
+name: GUIExample
+version: ${project.version}
+main: dev.lone.GUIExample.Main
+api-version: 1.13
+description: Example of custom textured GUI made with ItemsAdder
+commands:
+  guiexample:
+    description: Shows GUI example
+  guiconvert:
+    description: Converts an opened player inventory to custom textured inventory
+    usage: /<command> <player>
